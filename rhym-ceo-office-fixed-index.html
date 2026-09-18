@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#090d12" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>rhym systems Inc. | CEO Office</title>
+<style>
+:root{--bg:#090d12;--panel:rgba(20,27,37,.94);--panel2:rgba(15,21,29,.97);--line:rgba(255,255,255,.08);--line2:rgba(255,255,255,.14);--text:#eef3f8;--muted:#8c98a8;--muted2:#667281;--green:#82c6a7;--amber:#d9b877;--red:#df8f8f;--shadow:0 20px 60px rgba(0,0,0,.28);--r:18px}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;min-height:100vh;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;color:var(--text);background:radial-gradient(circle at 20% 0%,rgba(56,77,103,.22),transparent 34%),radial-gradient(circle at 100% 40%,rgba(41,56,76,.16),transparent 26%),linear-gradient(180deg,#0b0f15,#080b10 55%,#070a0e)}button,textarea,input,select{font:inherit}.app{max-width:1440px;margin:auto;padding:26px 28px 34px}.top{display:flex;justify-content:space-between;gap:18px;align-items:flex-end;margin-bottom:22px}.eyebrow{font-size:10px;letter-spacing:.22em;color:var(--muted);font-weight:700;margin-bottom:7px}h1{margin:0;font-size:clamp(27px,3vw,37px);letter-spacing:-.04em;font-weight:650}.actions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}.badge,.btn{border:1px solid var(--line2);background:rgba(255,255,255,.025);border-radius:9px;color:#c2cbd5;font-size:11px;padding:8px 10px}.badge{border-color:rgba(130,198,167,.28);color:var(--green);border-radius:999px;letter-spacing:.08em}.btn{cursor:pointer}.btn:hover{background:rgba(255,255,255,.06)}.grid{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:18px;align-items:start}.main,.side{display:grid;gap:18px}.card{border:1px solid var(--line);background:linear-gradient(180deg,rgba(22,29,40,.92),rgba(14,20,28,.94));border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}.scene{min-height:96px;padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px}.label{font-size:9px;letter-spacing:.18em;color:var(--muted2);font-weight:700;margin-bottom:8px}.loc{font-size:17px;font-weight:650}.clock{text-align:right;color:var(--muted);font-size:11px;letter-spacing:.07em}.clock strong{display:block;color:var(--text);font-size:28px;letter-spacing:-.04em;margin-top:3px}.head{height:53px;padding:0 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;font-size:13px;font-weight:650}.head>div{display:flex;gap:9px;align-items:center}.conversation{min-height:480px}.log{padding:14px 18px 22px;max-height:min(60vh,680px);overflow:auto;scroll-behavior:smooth}.msg{display:grid;grid-template-columns:38px 1fr;gap:12px;padding:14px 0}.msg+.msg{border-top:1px solid rgba(255,255,255,.045)}.avatar{width:36px;height:36px;border:1px solid var(--line2);border-radius:11px;display:grid;place-items:center;font-size:10px;font-weight:800;background:rgba(255,255,255,.035)}.msg.ceo .avatar{background:#e7ebef;color:#0a0e13;border-color:transparent}.speaker{font-size:12px;color:#c8d0d9;font-weight:650;margin:1px 0 6px}.body{font-size:15px;line-height:1.9;color:#e2e7ec;white-space:pre-wrap;word-break:break-word}.time{font-size:9px;color:var(--muted2);margin-top:7px}.narr{margin:6px 0 8px 50px;padding:10px 12px;border-left:2px solid rgba(255,255,255,.13);color:var(--muted);font-size:12px;line-height:1.7}.composer{padding:16px}.composer-top{display:flex;justify-content:space-between;gap:14px;color:#cbd3dc;font-size:11px;font-weight:650;margin:0 2px 10px}.hint{color:var(--muted2);font-weight:400}textarea{width:100%;resize:vertical;min-height:100px;max-height:240px;background:rgba(5,9,14,.76);color:var(--text);border:1px solid var(--line2);border-radius:12px;padding:14px 15px;line-height:1.65;font-size:15px}textarea::placeholder{color:#596473}textarea:focus{outline:none;border-color:rgba(255,255,255,.25)}.composer-bottom{margin-top:11px;display:flex;justify-content:space-between;align-items:center;gap:12px}.meta{display:flex;gap:12px;align-items:center;color:var(--muted2);font-size:10px}.send{min-width:132px;border:1px solid rgba(255,255,255,.85);background:#ecf0f3;color:#0b1016;border-radius:10px;padding:10px 14px;cursor:pointer;font-weight:800;font-size:12px}.send:disabled{opacity:.45;cursor:not-allowed}.send:active:not(:disabled){transform:translateY(1px)}.side .head{height:49px}.list{padding:7px 14px 14px}.sched{display:grid;grid-template-columns:52px 1fr;gap:8px;padding:10px 2px;border-bottom:1px solid rgba(255,255,255,.045)}.sched:last-child{border-bottom:0}.sched .t{font-size:10px;color:var(--muted);padding-top:2px}.sched .title{font-size:12px;line-height:1.45;color:#d9e0e7}.sched.done{opacity:.45}.sched.current .t{color:var(--green)}.notice{display:grid;grid-template-columns:27px 1fr;gap:9px;padding:9px 2px;border-bottom:1px solid rgba(255,255,255,.04)}.notice:last-child{border-bottom:0}.notice .k{font-size:10px;color:var(--muted);margin-bottom:2px}.notice .v{font-size:11px;color:#d5dce4;line-height:1.45}.status{position:relative;padding:8px 4px 8px 14px;font-size:11px;line-height:1.55;color:#c5ced7}.status:before{content:"";position:absolute;left:1px;top:14px;width:5px;height:5px;border-radius:50%;background:#6d7b8a}.ai-panel{padding:13px 15px 15px}.ai-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.ai-status{font-size:11px;color:var(--muted);line-height:1.5;flex:1;min-width:150px}.ai-status.ok{color:var(--green)}.ai-status.err{color:var(--red)}.ai-progress{height:5px;background:rgba(255,255,255,.06);border-radius:999px;overflow:hidden;margin-top:10px}.ai-progress>div{height:100%;width:0;background:currentColor;color:var(--green);transition:width .2s}.model-note{font-size:9px;color:var(--muted2);line-height:1.55;margin-top:8px}.drawer{display:none;border-top:1px solid var(--line);padding:14px 16px 16px;color:#b9c4cf;font-size:11px;line-height:1.7}.drawer.show{display:block}.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,16px);background:rgba(235,240,244,.97);color:#0a0e13;padding:9px 13px;border-radius:9px;font-size:11px;font-weight:700;opacity:0;pointer-events:none;transition:.2s;z-index:99}.toast.show{opacity:1;transform:translate(-50%,0)}.tiny{font-size:10px;color:var(--muted2)}
+@media(max-width:960px){.app{padding:18px 15px 28px}.grid{grid-template-columns:1fr}.side{grid-template-columns:repeat(2,1fr)}.side .ai-card{grid-column:1/-1}}
+@media(max-width:700px){.top{align-items:flex-start}.actions{max-width:220px}.grid,.main,.side{gap:12px}.side{grid-template-columns:1fr}.scene{padding:17px}.loc{font-size:14px}.clock strong{font-size:23px}.conversation{min-height:420px}.log{max-height:52vh;padding:10px 14px 18px}.msg{grid-template-columns:32px 1fr;gap:10px;padding:12px 0}.avatar{width:31px;height:31px;border-radius:9px}.body{font-size:14px;line-height:1.85}.composer{position:sticky;bottom:max(8px,env(safe-area-inset-bottom));z-index:20}.hint{display:none}.meta{display:block}.send{min-width:116px}.top .btn.export{display:none}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div><div class="eyebrow">RHYM SYSTEMS INC.</div><h1>CEO Office</h1></div>
+    <div class="actions">
+      <span class="badge">BROWSER AI / FREE</span>
+      <button class="btn" id="helpBtn">操作</button>
+      <button class="btn export" id="exportBtn">Export</button>
+      <label class="btn">Import<input id="importInput" type="file" accept="application/json" hidden></label>
+      <button class="btn" id="resetBtn">New Game</button>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="main">
+      <section class="card scene">
+        <div><div class="label">CURRENT LOCATION</div><div class="loc" id="locationText"></div></div>
+        <div class="clock"><div id="dateText"></div><strong id="timeText"></strong></div>
+      </section>
+
+      <section class="card conversation">
+        <div class="head"><div><span>💬</span><span>会話</span></div><span class="tiny" id="turnText"></span></div>
+        <div class="log" id="conversationLog"></div>
+      </section>
+
+      <section class="card composer">
+        <div class="composer-top"><span>熊木 駿介（CEO）として発言</span><span class="hint">Enterで送信 / Shift+Enterで改行</span></div>
+        <textarea id="ceoInput" rows="3" placeholder="例：石井さん、今日の予定を教えて。"></textarea>
+        <div class="composer-bottom">
+          <div class="meta"><span id="saveState">端末内に自動保存</span><span>CEO発言は書き換えません</span></div>
+          <button class="send" id="sendBtn">発言する ↗</button>
+        </div>
+        <div class="drawer" id="helpDrawer">
+          <strong>無料ブラウザAI版</strong><br>
+          AIモデルは端末内で実行され、OpenAI APIキーは使いません。初回のみモデルデータのダウンロードが必要です。<br><br>
+          「今日の予定」「通知確認」「10分進めて」「久世さんを呼んで」「Tokyo Officeへ移動」などはゲームエンジンが確実に処理します。<br>
+          それ以外の自然な会話・相談・指示は、起動済みのブラウザAIがNPCとして返答します。
+        </div>
+      </section>
+    </section>
+
+    <aside class="side">
+      <section class="card ai-card">
+        <div class="head"><div><span>🧠</span><span>AI GM</span></div></div>
+        <div class="ai-panel">
+          <div class="ai-row"><div class="ai-status" id="aiStatus">未起動</div><button class="btn" id="startAiBtn">AIを起動</button></div>
+          <div class="ai-progress"><div id="aiProgressBar"></div></div>
+          <div class="model-note" id="modelNote">標準: Llama 3.2 1B（端末内実行）。API料金は発生しません。</div>
+        </div>
+      </section>
+      <section class="card"><div class="head"><div><span>📅</span><span>本日の予定</span></div></div><div class="list" id="scheduleList"></div></section>
+      <section class="card"><div class="head"><div><span>🔔</span><span>通知センター</span></div></div><div class="list" id="notificationList"></div></section>
+      <section class="card"><div class="head"><div><span>📌</span><span>現在の状況</span></div></div><div class="list" id="statusList"></div></section>
+    </aside>
+  </main>
+</div>
+<div class="toast" id="toast"></div>
+<script type="module">
+let webllmModule = null;
+
+const MODEL_ID = "Llama-3.2-1B-Instruct-q4f16_1-MLC";
+const KEY = "rhym-ceo-office-browser-ai-v1";
+let engine = null;
+let aiBusy = false;
+
+const roster={
+ '久世':'久世 駿（COO）','黒瀬':'黒瀬 智也（CFO）','小春':'小春 凛（CCO）','神崎':'神崎 悠人（CTO）','水瀬':'水瀬 遥香（CMO）','朝霧':'朝霧 莉子（CHRO）','御剣':'御剣 怜（CLO）','石井':'石井 美咲（Executive Assistant）','神楽坂':'神楽坂 綾乃（Executive Secretary）','東雲':'東雲 悠（Executive Secretary）','風間':'風間 直人（Special Affairs）'
+};
+const executives=['熊木 駿介（CEO）','久世 駿（COO）','黒瀬 智也（CFO）','小春 凛（CCO）','神崎 悠人（CTO）','水瀬 遥香（CMO）','朝霧 莉子（CHRO）','御剣 怜（CLO）'];
+const initial=()=>({
+ version:3,currentDateTime:'2026-04-01T09:00:00+09:00',location:'Global Headquarters / CEO Office',turn:0,activeNpc:'石井 美咲（Executive Assistant）',
+ conversation:[{type:'npc',speaker:'石井 美咲（Executive Assistant）',text:'おはようございます、熊木CEO。2026年度、新年度初日です。\n本日の予定とCEO Officeへの新着事項を整理しています。ご指示から始めてください。',at:'2026-04-01T09:00:00+09:00'}],
+ schedule:[{time:'09:00',title:'CEO Office / 2026年度 新年度業務開始'}],
+ notifications:{mail:'ありません',call:'ありません',urgent:'ありません',approval:'ありません',visitor:'ありません'},
+ status:['2026年度の新年度初日','CEO Officeが本日の予定・新着事項を確認中'],
+ canon:[{at:'2026-04-01T09:00:00+09:00',text:'2026年度開始。熊木 駿介（CEO）はGlobal Headquartersから業務を開始。'}]
+});
+let state=load();
+
+const $=id=>document.getElementById(id), el={loc:$('locationText'),date:$('dateText'),time:$('timeText'),log:$('conversationLog'),input:$('ceoInput'),send:$('sendBtn'),schedule:$('scheduleList'),notice:$('notificationList'),status:$('statusList'),toast:$('toast'),save:$('saveState'),turn:$('turnText'),aiStatus:$('aiStatus'),aiProgress:$('aiProgressBar'),startAi:$('startAiBtn'),modelNote:$('modelNote')};
+
+function load(){try{const x=localStorage.getItem(KEY);if(x)return {...initial(),...JSON.parse(x)}}catch(e){}return initial()}
+function save(){localStorage.setItem(KEY,JSON.stringify(state));el.save.textContent='保存済み';setTimeout(()=>el.save.textContent='端末内に自動保存',700)}
+function d(){return new Date(state.currentDateTime)}
+function fmtTime(iso=state.currentDateTime){return new Intl.DateTimeFormat('ja-JP',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Tokyo'}).format(new Date(iso))}
+function fmtDate(){const x=d(),wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'Asia/Tokyo'}).format(x).toUpperCase(),p=new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit',timeZone:'Asia/Tokyo'}).formatToParts(x),g=t=>p.find(a=>a.type===t)?.value;return `${g('year')}.${g('month')}.${g('day')} ${wd}`}
+function mins(hm){const[a,b]=hm.split(':').map(Number);return a*60+b}
+function nowMins(){return mins(fmtTime())}
+function render(){el.loc.textContent=state.location;el.date.textContent=fmtDate();el.time.textContent=fmtTime();el.turn.textContent=`TURN ${state.turn}`;renderLog();renderSched();renderNotice();renderStatus()}
+function renderLog(){el.log.innerHTML='';for(const m of state.conversation){if(m.type==='narration'){const n=document.createElement('div');n.className='narr';n.textContent=m.text;el.log.appendChild(n);continue}const a=document.createElement('article');a.className='msg '+(m.type==='ceo'?'ceo':'npc');const av=document.createElement('div');av.className='avatar';av.textContent=m.type==='ceo'?'CEO':((m.speaker||'').replace(/\s/g,'').slice(0,2)||'GM');const c=document.createElement('div'),s=document.createElement('div'),b=document.createElement('div'),t=document.createElement('div');s.className='speaker';b.className='body';t.className='time';s.textContent=m.speaker;b.textContent=m.text;t.textContent=fmtTime(m.at);c.append(s,b,t);a.append(av,c);el.log.appendChild(a)}requestAnimationFrame(()=>el.log.scrollTop=el.log.scrollHeight)}
+function renderSched(){el.schedule.innerHTML='';const n=nowMins();state.schedule.sort((a,b)=>a.time.localeCompare(b.time));state.schedule.forEach((x,i)=>{const next=state.schedule[i+1]?mins(state.schedule[i+1].time):1440,row=document.createElement('div');row.className='sched'+(n>=next?' done':(n>=mins(x.time)&&n<next?' current':''));row.innerHTML='<div class="t"></div><div class="title"></div>';row.children[0].textContent=x.time;row.children[1].textContent=x.title;el.schedule.appendChild(row)})}
+function renderNotice(){el.notice.innerHTML='';[['📨','新着メール','mail'],['📞','着信','call'],['🚨','緊急案件','urgent'],['📝','申請待','approval'],['👤','来客','visitor']].forEach(([i,k,key])=>{const r=document.createElement('div');r.className='notice';r.innerHTML='<div></div><div><div class="k"></div><div class="v"></div></div>';r.children[0].textContent=i;r.querySelector('.k').textContent=k;r.querySelector('.v').textContent=state.notifications[key]||'ありません';el.notice.appendChild(r)})}
+function renderStatus(){el.status.innerHTML='';state.status.slice(0,8).forEach(x=>{const r=document.createElement('div');r.className='status';r.textContent=x;el.status.appendChild(r)})}
+function say(speaker,text,type='npc'){state.conversation.push({type,speaker,text,at:state.currentDateTime})}
+function narr(text){state.conversation.push({type:'narration',text,at:state.currentDateTime})}
+function advance(m){const x=new Date(state.currentDateTime);x.setMinutes(x.getMinutes()+m);state.currentDateTime=x.toISOString()}
+function canon(text){state.canon.push({at:state.currentDateTime,text})}
+function cleanLocation(s){return s.replace(/へ?移動(?:する|して|します)?。?$/,'').replace(/に?行(?:く|って|きます)?。?$/,'').trim()}
+function parseTimeAdvance(text){let m=text.match(/(\d+)\s*時間(?:\s*(\d+)\s*分)?(?:後|進め|経過)?/);if(m)return Number(m[1])*60+Number(m[2]||0);m=text.match(/(\d+)\s*分(?:後|進め|経過)/);if(m)return Number(m[1]);m=text.match(/(\d{1,2})[:：](\d{2})\s*まで/);if(m){const target=Number(m[1])*60+Number(m[2]),now=nowMins();return target>now?target-now:0}return 0}
+
+function deterministic(text){const norm=text.trim();
+  const adv=parseTimeAdvance(norm);if(adv>0){advance(adv);say('石井 美咲（Executive Assistant）',`${adv>=60?Math.floor(adv/60)+'時間'+(adv%60?adv%60+'分':''):adv+'分'}、時間を進めました。現在は${fmtTime()}です。`);state.status=[`現在時刻 ${fmtTime()}`, ...state.status.filter(x=>!x.startsWith('現在時刻')).slice(0,6)];return true}
+  if(/今日.*予定|本日.*予定|予定.*確認/.test(norm)){const lines=state.schedule.map(x=>`${x.time}　${x.title}`).join('\n');say('石井 美咲（Executive Assistant）',`本日の予定です。\n${lines||'現在、登録済みの予定はありません。'}`);return true}
+  if(/通知|新着|メール.*確認|着信.*確認/.test(norm)){const n=state.notifications;say('石井 美咲（Executive Assistant）',`通知センターを確認しました。\n📨 新着メール：${n.mail}\n📞 着信：${n.call}\n🚨 緊急案件：${n.urgent}\n📝 申請待：${n.approval}\n👤 来客：${n.visitor}`);return true}
+  if(/役員.*(教|一覧|確認)|経営陣.*(教|一覧|確認)/.test(norm)){say('石井 美咲（Executive Assistant）',`Executive Leadershipは以下です。\n${executives.join('\n')}`);return true}
+  const add=norm.match(/(\d{1,2})[:：](\d{2}).{0,3}(.+?)(?:を)?(?:予定|スケジュール).*(?:追加|入れ)/);if(add){const tm=String(add[1]).padStart(2,'0')+':'+add[2],title=add[3].replace(/[、。]$/,'').trim();state.schedule.push({time:tm,title});canon(`${tm} ${title} を本日の予定へ追加。`);say('石井 美咲（Executive Assistant）',`${tm}に「${title}」を追加しました。`);return true}
+  const who=Object.keys(roster).find(k=>norm.includes(k)&&/(呼|連絡|電話|繋|来てもら)/.test(norm));if(who){const full=roster[who];say('石井 美咲（Executive Assistant）',`${full}へ連絡します。`);advance(3);narr(`${full}への連絡が取れた。`);say(full,'熊木CEO、お呼びでしょうか。');state.activeNpc=full;state.status=[`${full}がCEO対応中`,...state.status.filter(x=>!x.includes('CEO対応中')).slice(0,6)];return true}
+  const moveMatch=norm.match(/(.+?)(?:へ|に)(?:移動|向か|行く|行って)/);if(moveMatch){const dest=cleanLocation(moveMatch[1]);if(dest.length<45){say('石井 美咲（Executive Assistant）',`${dest}への移動を手配します。`);advance(10);state.location=dest;canon(`熊木 駿介（CEO）が${dest}へ移動。`);narr(`${dest}へ移動した。`);state.status=[`${dest}で業務中`,...state.status.filter(x=>!x.includes('で業務中')).slice(0,6)];return true}}
+  return false
+}
+
+function systemPrompt(){
+  const sched=state.schedule.map(x=>`${x.time} ${x.title}`).join(' / ')||'なし';
+  const recentCanon=state.canon.slice(-6).map(x=>x.text).join(' / ');
+  const active=state.activeNpc||'石井 美咲（Executive Assistant）';
+  return `あなたは企業経営RPG「rhym systems Inc.」のGMです。ユーザーは熊木 駿介（CEO）本人です。\n\n【絶対ルール】\n- 熊木CEOの発言を生成・補完・言い換えしない。ユーザー入力がCEOの発言そのもの。\n- あなたはNPCの発言と最小限の状況描写だけを生成する。\n- 世界線は一つ。過去を無かったことにしない。\n- NPCは役職・立場・記憶を持ち、無条件にCEOへ賛成しない。\n- 未設定の精密な金額や事実を勝手に作らない。\n- 選択肢を強制しない。必要なら判断材料を短く示す。\n- 日本語で自然に返答する。長すぎない。\n- 発言者は現在の会話相手「${active}」。原則としてこの人物だけを話させる。\n- 回答に「熊木 駿介（CEO）」の台詞を書かない。\n\n【会社Canon】\nrhym systems Inc. / 創業2020年 / 2023年にsignal_13から社名変更 / Global Headquartersは茨城県つくば市。Mission: 創造の力で、人と社会の可能性を広げる。Vision: 世界で最も信頼されるクリエイティブ・テクノロジーグループへ。Values: Create, Challenge, Integrity, Respect, Excellence。\n\n【主要人員】\nCEO 熊木 駿介 / COO 久世 駿 / CFO 黒瀬 智也 / CCO 小春 凛 / CTO 神崎 悠人 / CMO 水瀬 遥香 / CHRO 朝霧 莉子 / CLO 御剣 怜 / Executive Assistant 石井 美咲 / Executive Secretary 神楽坂 綾乃・東雲 悠 / Special Affairs 風間 直人。\n\n【現在状態】\n日時: ${fmtDate()} ${fmtTime()} / 場所: ${state.location} / 会話相手: ${active} / 本日の予定: ${sched} / 状況: ${state.status.join(' / ')} / 直近Canon: ${recentCanon||'2026年度開始'}\n\n返答はNPC本人としての自然な文章だけを出力してください。話者名や見出しは不要です。`;
+}
+
+function recentMessages(){return state.conversation.filter(x=>x.type!=='narration').slice(-10).map(m=>({role:m.type==='ceo'?'user':'assistant',content:m.text}))}
+function sanitizeModelText(text){
+  let t=(text||'').trim();
+  t=t.replace(/^```[a-z]*\s*/i,'').replace(/```$/,'').trim();
+  t=t.split('\n').filter(line=>!/^\s*(💬\s*)?熊木\s*駿介（CEO）/.test(line)&&!/^\s*(CEO|User)\s*[:：]/i.test(line)).join('\n').trim();
+  return t||'承知しました。確認のうえ対応します。';
+}
+
+async function generateAI(){
+  if(!engine){say('石井 美咲（Executive Assistant）','ブラウザAIがまだ起動していません。右側の「AIを起動」を押してください。');return}
+  aiBusy=true;el.send.disabled=true;el.aiStatus.textContent='応答生成中…';
+  try{
+    const response=await engine.chat.completions.create({messages:[{role:'system',content:systemPrompt()},...recentMessages()],temperature:0.65,top_p:0.9,max_tokens:260});
+    const text=sanitizeModelText(response?.choices?.[0]?.message?.content);
+    say(state.activeNpc||'石井 美咲（Executive Assistant）',text);
+  }catch(e){console.error(e);say('石井 美咲（Executive Assistant）','AI応答の生成に失敗しました。AI GMを再起動して、もう一度お試しください。');el.aiStatus.textContent='エラー';el.aiStatus.className='ai-status err'}
+  finally{aiBusy=false;el.send.disabled=false;if(engine){el.aiStatus.textContent='起動済み';el.aiStatus.className='ai-status ok'}save();render()}
+}
+
+async function startAI(){
+  if(engine||aiBusy)return;
+  if(!('gpu' in navigator)){
+    el.aiStatus.textContent='WebGPU非対応';el.aiStatus.className='ai-status err';el.modelNote.textContent='このブラウザではWebGPUを利用できません。最新Safari/Chromeをお試しください。';return;
+  }
+  aiBusy=true;el.startAi.disabled=true;el.aiStatus.textContent='モデル準備中 0%';el.aiStatus.className='ai-status';
+  try{
+    if(!webllmModule){
+      el.aiStatus.textContent='AIライブラリ読込中…';
+      webllmModule = await import("https://esm.run/@mlc-ai/web-llm");
+    }
+    engine=await webllmModule.CreateMLCEngine(MODEL_ID,{initProgressCallback:(report)=>{
+      const p=Math.max(0,Math.min(1,Number(report.progress||0)));
+      el.aiProgress.style.width=`${Math.round(p*100)}%`;
+      el.aiStatus.textContent=`モデル準備中 ${Math.round(p*100)}%`;
+    }});
+    el.aiProgress.style.width='100%';el.aiStatus.textContent='起動済み';el.aiStatus.className='ai-status ok';el.startAi.textContent='AI起動済み';el.modelNote.textContent='Llama 3.2 1B / 端末内実行。会話データはAI APIへ送信しません。';toast('AI GMを起動しました')
+  }catch(e){console.error(e);engine=null;el.aiStatus.textContent='起動失敗';el.aiStatus.className='ai-status err';el.modelNote.textContent='メモリ不足またはモデル取得エラーの可能性があります。ページ再読み込み後に再試行してください。';el.startAi.disabled=false;toast('AIの起動に失敗しました')}
+  finally{aiBusy=false}
+}
+
+async function submit(){const text=el.input.value;if(!text.trim()||aiBusy)return;state.turn++;say('熊木 駿介（CEO）',text,'ceo');el.input.value='';const handled=deterministic(text);save();render();if(!handled)await generateAI();el.input.focus()}
+function toast(t){el.toast.textContent=t;el.toast.classList.add('show');setTimeout(()=>el.toast.classList.remove('show'),1900)}
+
+$('sendBtn').addEventListener('click',submit);
+$('ceoInput').addEventListener('keydown',e=>{if(e.isComposing||e.keyCode===229)return;if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();submit()}});
+$('startAiBtn').addEventListener('click',startAI);
+$('helpBtn').addEventListener('click',()=>document.getElementById('helpDrawer').classList.toggle('show'));
+$('exportBtn').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`rhym-ceo-save-${state.currentDateTime.slice(0,10)}.json`;a.click();URL.revokeObjectURL(a.href)});
+$('importInput').addEventListener('change',async e=>{const f=e.target.files?.[0];if(!f)return;try{const x=JSON.parse(await f.text());if(!x.currentDateTime||!Array.isArray(x.conversation))throw 0;state={...initial(),...x};save();render();toast('セーブデータを読み込みました')}catch(_){toast('読み込めないデータです')}e.target.value=''});
+$('resetBtn').addEventListener('click',()=>{if(confirm('現在の進行を消去し、2026年4月1日 09:00から開始しますか？')){state=initial();save();render();toast('新しい正史を開始しました')}});
+
+render();setTimeout(()=>el.input.focus(),100);
+
+</script>
+</body>
+</html>
